@@ -27,24 +27,42 @@ while (count > 0) {
   count--;
 }
 
+let counter = 10;
+while (counter > 0) {
+  console.log(counter);
+  counter--;
+}
+
+counter = 1;
+while (counter <= 10) {
+  console.log(counter);
+  counter++;
+};
+
 // 5. do-while loop
+let i = 0;
+do {
+  console.log(`i is: ${i}`);
+  i++;
+} while (i < 3);
+
 // 6. for loop
+for (let j = 0; j <= 3; j++) {
+  console.log(`j = ${j}`);
+};
 
 // Student TODO:
 // 7. Snippet with bugs for debugging practice
 // Snippet with bugs for debugging practice - uncomment when ready
-/*
 const num = 10;
 
-if (num < 5) {
+if (num > 5)
   console.log('num is greater than 5');
-} else {
+else
   console.log('num is 5 or less');
-}
 
 let k = 0;
 while (k < 3) {
-  k + 1;
-	console.log(k);
+  k++;
+  console.log(k);
 }
-*/
