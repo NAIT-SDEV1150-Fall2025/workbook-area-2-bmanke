@@ -16,7 +16,7 @@ const footNote = document.getElementById(`footer-note`);
 
 // 2. textContent vs innerHTML
 // When you only need text (no markup), prefer textContent:
-
+title.textContent = 'DOM is terrible!';
 // 3. Attributes & styles
 
 // 4. Create small helper functions for reuse (updateText and updateHTML)
