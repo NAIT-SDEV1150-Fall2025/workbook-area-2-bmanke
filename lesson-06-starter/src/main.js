@@ -3,7 +3,6 @@ console.log('Lesson 06 starter loaded');
 // Selecting elements
 const title = document.querySelector(`#page-title`);
 
-// Selecting the tagline class with the document.querySelector
 const tagline = document.getElementsByClassName(`tagline`);
 
 const heroImg = document.querySelector(`#hero-img`);
@@ -14,10 +13,10 @@ const footNote = document.getElementById(`footer-note`);
 
 // 1. Create a new variable for the feature list element
 const featureList = document.getElementById('feature-list');
-const li = document.createElement('li');// <li></li>
-li.className = 'feature';// <li class = 'feature'></li>
-li.textContent = 'Flexible';// <li class = 'feature'>Flexible</li>
-featureList.appendChild(li);// This adds the child "li" to the html document
+const li = document.createElement('li');
+li.className = 'feature';
+li.textContent = 'Flexible';
+featureList.appendChild(li); // This adds the child "li" to the html document
 
 // 2. Add feature list to the displayed elements below
 console.log('Selected elements:', {
